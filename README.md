@@ -8,9 +8,9 @@ Udemy課程練習  #button #click #input #v-model
 
     v-model="name"  ,  v-model="lastname"
 
-3. 顯示 name, lastname
+3.顯示 name, lastname
 
-        <p>Your Name: {{ fullname }}</p>
+    <p>Your Name: {{ fullname }}</p>
 
 4.當name, lastname 有一個為空字元 就不會顯示名稱
 
