@@ -21,3 +21,17 @@ Udemy課程練習  #button #click #input #v-model
         return this.name + " " + this.lastname;
       },
     }
+
+5.重製input內容
+
+    <!-- html -->
+    <button v-on:click="resetInput">Reset Input</button>
+    
+    //JavaScript
+    methods:{
+     resetInput() {
+          this.name = "";
+          this.lastname = "";
+        },
+    }
+
